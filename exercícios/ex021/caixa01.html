@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 { /*Elemento do tipo box-level. Também posso transformar um box level para inline. Preciso usar apenas um display: inline-level. Se eu fizer isso, eu não uso altura e largura. O mesmo serve para um elemento inline. */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            Eu posso usar shorthands para simplificar todos esses códigos em uma linha só. Exemplo abaixo!
+            */
+
+            border: 10px solid darkslategray;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            Ao usar shorthands para simplificar o padding, eu posso colocar os 4 tamanhos do sentido horário ou posso usar apenas uma medida que ele já reconhece para todas as bordas. Se eu colocar 2 medidas, ele coloca a primeira medida para top and bottom e a segunda medida para left and right. Exemplo abaixo! 
+            */
+
+            padding: 10px 20px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            
+            Shorthands também servem para as margens. Exemplo abaixo! 
+            */
+
+            margin: 20px auto 40px auto;
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            Shorthand na outline. Exemplo abaixo!
+            */
+
+            outline: 5px dashed salmon;
+        }
+        
+        a { /*elemento do tipo inline-level*/
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            Também posso usar shorthands em outras propriedades que não sejam apenas h1. Exemplo abaixo!
+            */
+
+            border: 10px solid red;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1> <!-- H1 e P uma box-level.-->
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level.</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
