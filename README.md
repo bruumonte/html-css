@@ -3,4 +3,4 @@
 
 Estou estudando HTML e CSS e esse é o meu primeiro gerenciamento de repositório.
 
-<a href="https://bruumonte.github.io/html-css/desafios/d001/index.html">Executar o exercício 001</a>
+<a href="https://bruumonte.github.io/html-css/desafios/d010/index.html">Executar o exercício 001</a>
